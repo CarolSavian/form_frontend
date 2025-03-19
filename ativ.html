@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./ativ.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Formulário</h1>
+    </header>
+    <form id="form">
+        <input id="campoA" type="text" required placeholder="Campo A"  />
+        <input id="campoB" type="number"  required placeholder="Campo B" />
+        <button id="btn-submit" type="submit">Submeter</button>
+        <p id="errorMessage" class = "error-message">
+            Não foi possível completar essa ação - Valor <b>B</b> menor que valor <b>A</b>
+        </p>
+    </form>
+    <p id= "successMessage" class = "success-message">
+        Dados submetidos
+    </p>
+    </div>
+    <script src="./ativ.js"></script>
+</body>
+</html>
